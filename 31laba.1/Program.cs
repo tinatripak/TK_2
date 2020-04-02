@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace _31laba._1
 {
     /*
+     * Завдання:
      Шеф повар. Визначити ієрархію овочів. Зробити салат. Підрахувати калорійність.
      Провести сортування овочів для салату на основі одного з параметрів. Знайти 
      овочі в салаті, відповідні заданому діапазону калорійності.
@@ -126,7 +127,7 @@ namespace _31laba._1
                 }
             }
         }
-        public void FindByCalories()
+        public void FindByCalories() //для тех,кто не знает английского, это переводится,как найти по калориям)))
         {
             Console.WriteLine(new string('-', 200));
             Console.WriteLine("The name of the vegetable, the calories of which is in the range from 15 to 19 is : ");
